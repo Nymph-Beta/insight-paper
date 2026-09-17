@@ -8,6 +8,8 @@
 
 [MIT License](LICENSE) · [技能入口](SKILL.md) · [来源说明](NOTICE.md)
 
+> **思路来源声明**：本项目的核心思路来自 Bilibili 视频 [《2026年，AI方向硕博何去何从？》](https://www.bilibili.com/video/BV1qkSDB8E9z)。我们基于视频中的研究与论文写作建议，将其整理为可执行的 Codex skill 工作流。感谢原作者的分享。
+
 ## 工作流
 
 ![insight-paper 架构图：文献基础、Idea 形成、Insight 提炼、实验设计、论文故事和视觉表达；实验结果反馈到 insight，文献复用于叙事和视觉，各阶段共享材料与项目状态。](assets/architecture.svg)
@@ -129,6 +131,6 @@ insight-paper/
 
 ## 来源与许可
 
-研究方法论根据《2026年，AI方向硕博何去何从？》相关字幕整理，保留来源时间段和信息对应表；本仓库不分发视频或逐字字幕。来源经验和本项目新增的执行规范在 [NOTICE.md](NOTICE.md) 中区分。
+研究方法论根据视频 [《2026年，AI方向硕博何去何从？》](https://www.bilibili.com/video/BV1qkSDB8E9z) 的相关字幕整理，保留来源时间段和信息对应表；本仓库不分发视频或逐字字幕。来源经验和本项目新增的执行规范在 [NOTICE.md](NOTICE.md) 中区分。
 
 本项目采用 [MIT](LICENSE) 许可证。第三方论文、图像、视频和外部技能不随本仓库重新授权。
