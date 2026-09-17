@@ -12,3 +12,4 @@ outputs/
 *.srt
 *.vtt
 *.pdf
+!assets/*.pdf

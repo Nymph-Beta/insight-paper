@@ -1,5 +1,7 @@
 # insight-paper · 洞见驱动论文指导
 
+![insight-paper 宣传图：多篇研究材料汇聚为一个核心洞见，再组织成一篇完整论文。One insight. A coherent paper.](assets/hero.png)
+
 把近年顶会文献、研究 idea、核心 insight、动机实验、论文叙事和视觉风格连接起来的 Codex skill。
 
 **An insight-driven research and writing skill for Codex: literature → ideas → insight → motivation experiments → narrative → figures.**
@@ -8,15 +10,11 @@
 
 ## 工作流
 
-```mermaid
-flowchart LR
-    A[近 2–3 年顶会检索与全文阅读] --> B[文献驱动 brainstorm]
-    B --> C[保留原 idea · 提炼 insight]
-    C --> D[动机 / 性能 / 消融 / 故事验证]
-    D --> E[证据支撑的论文叙事]
-    E --> F[参考论文与技术报告的视觉风格]
-    D -->|实验结果更新解释| C
-```
+![insight-paper 架构图：文献基础、Idea 形成、Insight 提炼、实验设计、论文故事和视觉表达；实验结果反馈到 insight，文献复用于叙事和视觉，各阶段共享材料与项目状态。](assets/architecture.svg)
+
+[查看高清 PNG](assets/architecture.png) · [PDF](assets/architecture.pdf) · [编辑 draw.io 源文件](assets/architecture.drawio) · [图像来源与设计说明](assets/README.md)
+
+**动机分析进入 Method，回答“为什么这样做”；消融单独检验“模块是否有效”。** 图中的实验阶段包括方案设计和已有结果回填，实际训练按具体任务的资源与授权执行。
 
 核心做法：
 
@@ -109,6 +107,7 @@ git clone https://github.com/Nymph-Beta/insight-paper.git \
 insight-paper/
 ├── SKILL.md
 ├── agents/openai.yaml
+├── assets/                 宣传图、架构图及可编辑源文件
 ├── references/
 │   ├── literature-and-ideas.md
 │   ├── insight-and-motivation.md
