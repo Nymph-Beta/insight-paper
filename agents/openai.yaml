@@ -1,0 +1,4 @@
+interface:
+  display_name: "洞见驱动论文指导"
+  short_description: "从近年顶会文献到核心洞见、动机实验、论文叙事和可编辑图示的研究指导"
+  default_prompt: "使用 $insight-paper，根据我的研究方向，从近两三年顶会检索与全文阅读出发，形成 idea、insight、动机实验、论文故事及参考风格图示。"

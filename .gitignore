@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.venv/
+work/
+research/
+outputs/
+*.ass
+*.srt
+*.vtt
+*.pdf
